@@ -1,3 +1,382 @@
+<!DOCTYPE html>
 <html>
-<center><b1>hello</h1></center>
-<html>
+	<head>
+		<title>VC_CSS_E - JAY SEDANI</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" />
+		
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+  <style type="text/css">
+			body{
+				font-family: verdana;
+			}
+			#result{
+				height: auto;
+				border: 1px solid #ccc;
+				padding: 15px;
+				box-shadow: 0 0 10px 0 #bbb;
+				margin-bottom: 30px;
+				font-size: 14px;
+				line-height: 25px;
+			}
+			.btnSpeak{
+				font-size: 20px;
+				color:red;
+				margin-left: -157px;
+			}
+			.footer{
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;				
+				color: white;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="container-fluid">
+		  <div class="row content">
+			<div class="col-sm-2 sidenav">
+			  <br><h4>Drag and Drop</h4><br>
+			  <div class="panel-group" id="accordion">
+				  <div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+						Menus</a>
+					  </h4>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+					  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+					  commodo consequat.</div>
+					</div>
+				  </div>
+				  
+				  <div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+						Header</a>
+					  </h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+					  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+					  commodo consequat.</div>
+					</div>
+				  </div>
+				  <div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+						Footer</a>
+					  </h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+					  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+					  commodo consequat.</div>
+					</div>
+				  </div>
+				  
+				  <div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+						Media</a>
+					  </h4>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+					  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+					  commodo consequat.</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <span class="label label-danger">head title</span><div id="I Love Food"><h2 "padding-left: 0px">I Love Food</h2></div>
+      <!--<h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>--><br>
+      
+	  <br>
+	  <span class="label label-danger">head content</span>
+      <p id="head content">Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Officially Blogging</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Anja <small>Sep 29, 2015, 9:12 PM</small></h4>
+          <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>John Row <small>Sep 25, 2015, 8:25 PM</small></h4>
+          <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid footer">
+  <center><h4 style="color:white">Tell us the change in english-india language and press enter.</h4></center><br>
+  <div class="row">
+    <div class="col-sm-9">
+		<div id="result"></div>
+	</div>
+    <div class="col-sm-3">
+		<button class="btnSpeak" onclick="startConverting();"><i class="fa fa-microphone"></i></button>	
+	</div>
+  </div>    
+</footer>
+
+
+
+		
+	
+		<script type="text/javascript">
+
+			var r = document.getElementById('result');
+
+			function startConverting () {
+				if('webkitSpeechRecognition' in window){
+				
+				//var str1 = "abc like defgh";
+				//str1=str1.split('like')[1];
+				//console.log(str1);
+				//console.log(document.getElementById("I Love Food").innerHTML.toString().includes("<h2>"));
+				
+					var speechRecognizer = new webkitSpeechRecognition();
+					speechRecognizer.continuous = true;
+					speechRecognizer.interimResults = true;
+					speechRecognizer.lang = 'en-IN';
+					speechRecognizer.start();
+
+					var finalTranscripts = '';
+
+					speechRecognizer.onresult = function(event){
+						var interimTranscripts = '';
+						for(var i = event.resultIndex; i < event.results.length; i++){
+							var transcript = event.results[i][0].transcript;
+							transcript.replace("\n", "<br>");
+							if(event.results[i].isFinal){
+								finalTranscripts += transcript;
+							}else{
+								interimTranscripts += transcript;
+							}
+						}
+						r.innerHTML = finalTranscripts + '<span style="color:#999">' + interimTranscripts + '</span>';
+						var word = 'change';
+						var cmd2='small';
+						var big='increase';
+						var cmd3='size';
+						
+						var move='take';
+						var right='right';
+						var left='left';
+						
+						//var styleh='h3';
+						
+						var abc='head title';
+						var abc2='header title';
+						
+						var I2='head content';
+						var E2='header content';
+						
+						var str1 = "abcdefgh";
+
+						//var pattern = "abc";
+						//var str2 = str1.substr(str1.indexOf(pattern), pattern.length); 
+						//console.log(str2);
+						
+						if(finalTranscripts.toString().includes(word) && (finalTranscripts.toString().includes(abc)||finalTranscripts.toString().includes(abc2)))
+						{
+							document.getElementById("I Love Food").innerHTML = '<h2>'+finalTranscripts.split('bro bro')[1]+'</h2>';
+							finalTranscripts='';
+						}
+						
+						
+						//var wherehead=document.getElementById("I Love Food").currentStyle.toString().match(/\d+/)[0];
+						//console.log(document.getElementById("I Love Food").currentStyle);
+						
+						var elem = document.getElementById("I Love Food");
+						var theCSSprop = window.getComputedStyle(elem, null).getPropertyValue("padding-left");
+						
+						var wherehead=theCSSprop.match(/\d+/)[0];
+						
+						console.log(theCSSprop);
+						
+						if(finalTranscripts.toString().includes(move) && finalTranscripts.toString().includes(right) && (finalTranscripts.toString().includes(abc)||finalTranscripts.toString().includes(abc2)))
+						{
+							document.getElementById("I Love Food").style.paddingLeft = (Number(wherehead)+10)+"px";
+							finalTranscripts='';
+						}
+						
+						
+						if(finalTranscripts.toString().includes(move) && finalTranscripts.toString().includes(left) && (finalTranscripts.toString().includes(abc)||finalTranscripts.toString().includes(abc2)))
+						{
+							document.getElementById("I Love Food").style.paddingLeft = (Number(wherehead)-10)+"px";
+							console.log(window.getComputedStyle(document.getElementById("I Love Food"), null).getPropertyValue("padding-left"));
+							finalTranscripts='';
+						}
+						
+						
+						var ret = document.getElementById("I Love Food").innerHTML.toString().replace('<h2>','');						
+						var ms=document.getElementById("I Love Food").innerHTML.toString();
+						//if(ms.includes("<h2>"))
+						var whichhead=ms.match(/\d+/)[0];
+						
+						
+						if(finalTranscripts.toString().includes(big) && finalTranscripts.toString().includes(cmd3) && (finalTranscripts.toString().includes(abc)||finalTranscripts.toString().includes(abc2)))
+						{
+							if(document.getElementById("I Love Food").innerHTML.toString().includes("<h"+whichhead+">"))
+							{	
+								var temp = document.getElementById("I Love Food").innerHTML.replace("<h"+whichhead+">", "");
+								temp=temp.replace("</h"+whichhead+">", "");
+																
+								document.getElementById("I Love Food").innerHTML = "<h"+(Number(whichhead)-1)+">"+temp.toString()+"</h"+(Number(whichhead)-1)+">";
+								finalTranscripts='';
+																
+								console.log(document.getElementById("I Love Food").innerHTML = document.getElementById("I Love Food").innerHTML.toString());
+							}
+						}
+						
+						if(finalTranscripts.toString().includes(cmd2) && finalTranscripts.toString().includes(cmd3) && (finalTranscripts.toString().includes(abc)||finalTranscripts.toString().includes(abc2)))
+						{
+							
+							
+							if(document.getElementById("I Love Food").innerHTML.toString().includes("<h"+whichhead+">"))
+							{	
+								var temp = document.getElementById("I Love Food").innerHTML.replace("<h"+whichhead+">", "");
+								temp=temp.replace("</h"+whichhead+">", "");
+																
+								document.getElementById("I Love Food").innerHTML = "<h"+(Number(whichhead)+1)+">"+temp.toString()+"</h"+(Number(whichhead)+1)+">";
+								finalTranscripts='';
+																
+								console.log(document.getElementById("I Love Food").innerHTML = document.getElementById("I Love Food").innerHTML.toString());
+							}
+							/*if(document.getElementById("I Love Food").innerHTML.toString().includes("<h3>"))
+							{	
+								var temp = document.getElementById("I Love Food").innerHTML.replace("<h3>", "");
+								temp=temp.replace("</h3>", "");
+																
+								document.getElementById("I Love Food").innerHTML = '<h4>'+temp.toString()+'</h4>';
+								finalTranscripts='';
+								console.log(document.getElementById("I Love Food").innerHTML = document.getElementById("I Love Food").innerHTML.toString());
+							}
+							if(document.getElementById("I Love Food").innerHTML.toString().includes("<h4>"))
+							{	
+								var temp = document.getElementById("I Love Food").innerHTML.replace("<h4>", "");
+								temp=temp.replace("</h4>", "");
+																
+								document.getElementById("I Love Food").innerHTML = '<h5>'+temp.toString()+'</h5>';
+								finalTranscripts='';
+								
+								console.log(document.getElementById("I Love Food").innerHTML = document.getElementById("I Love Food").innerHTML.toString());
+							}*/
+							
+						}
+						if(finalTranscripts.toString().includes(word) && (finalTranscripts.toString().includes(I2)||finalTranscripts.toString().includes(E2)))
+						{
+							document.getElementById("head content").innerHTML = finalTranscripts.split('bro bro')[1];
+							finalTranscripts='';
+						}
+						if(finalTranscripts.toString().includes(word) && (finalTranscripts.toString().includes(abc)||finalTranscripts.toString().includes(abc2)))
+						{
+							document.getElementById("I Love Food").innerHTML = '<h2>'+finalTranscripts.split('bro bro')[1]+'</h2>';
+							finalTranscripts='';
+						}
+						else{
+							//alert("sorry I didnt get you.");
+							//console.log(finalTranscripts.toString().includes(word) && finalTranscripts.toString().includes(abc));
+						}
+					};
+					speechRecognizer.onerror = function (event) {
+					
+					};
+				}else{
+					r.innerHTML = 'Your browser is not supported. If google chrome, please upgrade!';
+				}
+			}
+
+			
+
+		</script>
+	</body>
+</html>
